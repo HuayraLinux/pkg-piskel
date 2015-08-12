@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Piskel
+Comment=A simple web-based tool for Spriting and Pixel art.
+Comment[es]=Una herramienta simple para dibujar Pixel Art.
+Terminal=false
+Type=Application
+Categories=Graphics;
+Icon=piskel
+Exec=piskelapp

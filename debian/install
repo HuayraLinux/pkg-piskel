@@ -1,0 +1,8 @@
+dest            usr/share/piskelapp/
+karma.conf.js   usr/share/piskelapp/
+misc            usr/share/piskelapp/
+node_modules    usr/share/piskelapp/
+package.json    usr/share/piskelapp/
+debian/piskelapp usr/bin/
+debian/piskelapp.desktop   usr/share/applications/
+dest/logo.png   usr/share/pixmaps/piskel.png
