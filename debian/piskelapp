@@ -1,2 +1,3 @@
 #!/bin/sh
-nw /usr/share/piskelapp/
+APP_PATH="/usr/share/piskel";
+exec nw ${APP_PATH} $@

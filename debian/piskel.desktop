@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Piskel
+Comment=A free online sprite editor. A simple web-based tool for Spriting and Pixel art. Create pixel art, game sprites and animated GIFs
+Comment[es]=Una herramienta simple para dibujar Pixel Art.
+Exec=piskelapp
+Terminal=false
+Type=Application
+Categories=Graphics;2DGraphics;
+Icon=piskel

@@ -1,16 +1,16 @@
 Source: piskel
-Section: graphic
-Priority: optional
-Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends: debhelper (>= 9), npm, nodejs-legacy
-Standards-Version: 3.9.6
-Homepage: https://github.com/juliandescottes/piskel
-Vcs-Git: https://github.com/HuayraLinux/pkg-piskel.git
+Section: games
+Priority: extra
+Maintainer: Matias De lellis
+Build-Depends: debhelper (>= 9.0.0), ca-certificates, wget, git, nodejs, grunt, npm
+Standards-Version: 3.9.3
+Homepage: http://github.com/HuayraLinux/pkg-piskel
+Vcs-Git: git://github.com/HuayraLinux/pkg-piskel.git
 Vcs-Browser: https://github.com/HuayraLinux/pkg-piskel
 
 Package: piskel
 Architecture: all
-Depends: ${shlibs:Depends}, node-webkit
-Description: A simple web-based tool for Spriting and Pixel art.
- The Piskel editor is purely built in JavaScript, HTML and CSS. 
- It uses Canvas extensively for displaying all them pretty sprites.
+Depends: ${misc:Depends}
+Description: A free online sprite editor.
+ A simple web-based tool for Spriting and Pixel art. Create pixel art, game
+ sprites and animated GIFs

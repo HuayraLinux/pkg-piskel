@@ -1,5 +1,23 @@
-piskel (0.5.3-1) unstable; urgency=low
+piskel (0.15.0-4) torbellino; urgency=medium
 
-  * Initial release
+  * Misc fixes
 
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 15 Feb 2014 01:09:26 -0300
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 06 Jan 2022 11:39:31 -0300
+
+piskel (0.15.0-3) torbellino; urgency=medium
+
+  * Misc fixes
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 06 Jan 2022 11:08:36 -0300
+
+piskel (0.15.0-2) torbellino; urgency=medium
+
+  * Misc fixes
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 04 Jan 2022 16:47:21 -0300
+
+piskel (0.15.0-1) torbellino; urgency=medium
+
+  * Initial release.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 04 Jan 2022 14:11:00 -0300
