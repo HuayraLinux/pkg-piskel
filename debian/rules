@@ -16,6 +16,10 @@ export DH_VERBOSE=1
 # This has to be exported to make some magic below work.
 export DH_OPTIONS
 
+
+NODE_VERSION :=14.21.3
+PATH := node-v$(NODE_VERSION)-linux-x64/bin:./node_modules/.bin:$(PATH)
+
 # pbuilder doesn't set a valid $HOME on purpose, we need it for the npm cache
 ifeq ($(shell test -e $(HOME) || echo no),no)
 	export HOME=/tmp
@@ -25,5 +29,10 @@ endif
 	dh $@
 
 override_dh_auto_configure:
-	npm i
+
+	wget https://nodejs.org/dist/v$(NODE_VERSION)/node-v$(NODE_VERSION)-linux-x64.tar.xz
+	tar xf node-v$(NODE_VERSION)-linux-x64.tar.xz
+	./node-v$(NODE_VERSION)-linux-x64/bin/npm install
+	./node-v$(NODE_VERSION)-linux-x64/bin/npm install -g grunt-cli grunt
+	./node-v$(NODE_VERSION)-linux-x64/bin/npm install grunt-cli grunt
 	grunt
