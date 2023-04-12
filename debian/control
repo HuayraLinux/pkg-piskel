@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/HuayraLinux/pkg-piskel
 
 Package: piskel
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, nwjs (>= 0.67)
 Description: A free online sprite editor.
  A simple web-based tool for Spriting and Pixel art. Create pixel art, game
  sprites and animated GIFs
