@@ -1,3 +1,9 @@
+piskel (0.15.0-5.1) unstable; urgency=medium
+
+  * Saca gnome keyring
+
+ -- Daniel <danieloscarferro@gmail.com>  Thu, 01 Jun 2023 15:39:16 -0300
+
 piskel (0.15.0-5) unstable; urgency=medium
 
   * Non-maintainer upload.

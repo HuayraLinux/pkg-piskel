@@ -2,7 +2,7 @@ Source: piskel
 Section: games
 Priority: extra
 Maintainer: Matias De lellis
-Build-Depends: debhelper (>= 13.0.0), ca-certificates, wget, git, nodejs, npm, node-grunt-cli
+Build-Depends: debhelper (>= 12.0.0), ca-certificates, wget, git, nodejs, npm, node-grunt-cli
 Standards-Version: 3.9.3
 Homepage: http://github.com/HuayraLinux/pkg-piskel
 Vcs-Git: git://github.com/HuayraLinux/pkg-piskel.git
